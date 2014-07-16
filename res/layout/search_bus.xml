@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f0e68c"
+        android:text="バス停     -Bus_Name-  "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        >
+    </ListView>
+    
+    <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="検索  -Search-" />
+    
+    <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="大人150円：子供80円\nお出かけパスポート100円\nバス共通ICカード「KURURU」使用可能\n月～金曜日(お盆期間、年末年始は増便しません)"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    
+     <ImageView
+            android:id="@+id/imageView1"
+            android:scaleType="fitCenter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            
+            android:src="@drawable/nagano_route" />
+
+</LinearLayout>
