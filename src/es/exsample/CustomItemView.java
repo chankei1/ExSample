@@ -9,7 +9,6 @@ import android.widget.FrameLayout;
 import android.widget.RadioButton;
 import android.widget.TextView;
 
-
 public class CustomItemView extends FrameLayout implements Checkable {
  
     private RadioButton mRadioButton;
